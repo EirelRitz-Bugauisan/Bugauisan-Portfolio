@@ -38,7 +38,7 @@
 
     header {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
       padding: 20px;
       border-bottom: 1px solid #eee;
@@ -52,16 +52,19 @@
     }
 
     .logo {
-      font-weight: bold;
       display: flex;
       align-items: center;
-      margin-right: 270px;
     }
 
     .logo img {
       height: 40px;
       margin-right: 10px;
-      
+      background: none;
+      mix-blend-mode: multiply;
+    }
+
+    .logo span {
+      font-weight: bold;
     }
 
     nav a {
@@ -78,7 +81,7 @@
     }
 
     .section {
-      margin-top: 100px;
+      margin-top: 120px;
       text-align: center;
       animation: fadeInUp 1s ease forwards;
     }
@@ -157,7 +160,6 @@
       text-align: center;
       border-top: 1px solid #eee;
       margin-top: 40px;
-      margin-bottom: -0.6in;
     }
 
     .footer-container {
@@ -200,7 +202,7 @@
       <div class="contact-info">
         <p>
           <img src="Images/Email.png" alt="Email Icon">
-          Email: <a href="mailto:https://mail.google.com/mail/u/0/">relbugauisan@gmail.com</a>
+          Email: <a href="mailto:relbugauisan@gmail.com">relbugauisan@gmail.com</a>
         </p>
         <p>
           <img src="Images/pc.png" alt="Phone Icon">
